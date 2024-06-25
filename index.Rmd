@@ -36,7 +36,13 @@ This workshop is designed as a foundation upon which more specialized skills can
 
 **When:** July 09-10, 2024
 
-**Requirements:** Participants must bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. Please see the [installation instructions](installation.html) to ensure all required tools and packages are setup prior to the workshop
+**Requirements:** Participants must bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. Please see the [installation instructions](installation.html) to ensure all required tools and packages are setup prior to the workshop.
+
+If you have any questions or errors while installing any of the software or packages or during any of the setup, please attend one of the below sessions for troubleshooting. The dates and times for these more focused are listed below, and the Zoom link is available [here](https://uab.zoom.us/meeting/register/tZ0rduCuqzotGtHShsawHLyRROqH3Sdz71mf).
+
+-   July 2nd: 2pm - 2:30pm
+
+-   July 8th: 11:30am - 12pm
 
 **Accessibility:** We are committed to making this workshop accessible to everybody. For workshops at a physical location, the workshop organizers have checked that:
 
@@ -57,7 +63,7 @@ We will use this [Etherpad document](https://etherpad.wikimedia.org/p/uab-2024-0
 ## Schedule
 
 | Day 1 |                                  | Day 2 |                                                |
-|--------------:|-------------------|--------------:|------------------------|
+|----------------:|-----------------|----------------:|----------------------|
 | 08:00 | Sign-in & Setup                  | 08:30 | Sign-in                                        |
 | 08:50 | Introduction & Welcome Session   | 09:00 | Data Assumptions, DEG Analysis, and Annotation |
 | 09:00 | Introduction to RNA-Seq Analysis | 10:30 | Morning Break                                  |
@@ -72,4 +78,4 @@ We will use this [Etherpad document](https://etherpad.wikimedia.org/p/uab-2024-0
 
 ## Installation Instructions
 
-Please ensure you follow all instructions on [this page](installation.html)
+Please ensure you follow all instructions on [this page](installation.html).

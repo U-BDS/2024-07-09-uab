@@ -9,6 +9,12 @@ To participate in the workshop, you will need access to the software as describe
 
 `r fontawesome::fa("triangle-exclamation", fill = "#d40808")` If you have any questions or issues regarding any of the below issues, please feel free to attend the Data Science Office Hours hosted over Zoom by U-BDS every Thursday from 1:30p.m. - 2:00p.m. Please click [here](https://uab.zoom.us/meeting/register/tZ0rduCuqzotGtHShsawHLyRROqH3Sdz71mf) for the Zoom link.
 
+Additional Office Hours will be hosted to assist with any questions or concerns that may occur during the installation process. The dates and times for these more focused Office Hour sessions are listed below, and the Zoom link is available [here](https://uab.zoom.us/meeting/register/tZ0rduCuqzotGtHShsawHLyRROqH3Sdz71mf).
+
+-   July 2nd: 2pm - 2:30pm
+
+-   July 8th: 11:30am - 12pm
+
 ------------------------------------------------------------------------
 
 # Cheaha Account Registration {#cheaha_account}
