@@ -7,9 +7,7 @@ To participate in the workshop, you will need access to the software as describe
 
 ------------------------------------------------------------------------
 
-`r fontawesome::fa("triangle-exclamation", fill = "#d40808")` If you have any questions or issues regarding any of the below issues, please feel free to attend the Data Science Office Hours hosted over Zoom by U-BDS every Thursday from 1:30p.m. - 2:00p.m. Please click [here](https://uab.zoom.us/meeting/register/tZ0rduCuqzotGtHShsawHLyRROqH3Sdz71mf) for the Zoom link.
-
-Additional Office Hours will be hosted to assist with any questions or concerns that may occur during the installation process. The dates and times for these more focused Office Hour sessions are listed below, and the Zoom link is available [here](https://uab.zoom.us/meeting/register/tZ0rduCuqzotGtHShsawHLyRROqH3Sdz71mf).
+`r fontawesome::fa("triangle-exclamation", fill = "#d40808")` If you have any questions or issues regarding any of the below instructions, please feel free to attend the office hours dedicated to installation troubleshooting. The dates and times for these more focused office hour sessions are listed below, and the Zoom link is available [here](https://uab.zoom.us/meeting/register/tZ0rduCuqzotGtHShsawHLyRROqH3Sdz71mf).
 
 -   July 2nd: 2pm - 2:30pm
 
@@ -95,6 +93,14 @@ In order to download the data, perform the following steps:
 11. In the middle, click the 'Transfer of Sync to...' button.
 
 The folders will now be transferred to your scratch space on Cheaha. Following this process will match the directory structure that will be used for the first portion of the workshop.
+
+# Download the Data to local computer {#data_download_local}
+
+For tertiary analysis, the class will be taught using your own local computers, instead of Cheaha.
+
+Please download the `data` and the `teaching_templates` folders from the following Box link: <https://uab.box.com/s/arbfr7dm5nhe62p5dycau5g9c2xzcoth>
+
+**Note**: please add the folders above to a location in your computer that is easy to find, such as a sub-folder in your Desktop. This directory path will be your working directory in the R session (for a reminder on how to set your working directory in class, please the the following brief overview: <https://www.learn-r.org/r-tutorial/setwd-r.php>).
 
 # Installing R and RStudio
 
