@@ -7,7 +7,7 @@ To participate in the workshop, you will need access to the software as describe
 
 ------------------------------------------------------------------------
 
-`r fontawesome::fa("triangle-exclamation", fill = "#d40808")` If you have any questions or issues regarding any of the below instructions, please feel free to attend the office hours dedicated to installation troubleshooting. The dates and times for these more focused office hour sessions are listed below, and the Zoom link is available [here](https://uab.zoom.us/meeting/register/tZ0rduCuqzotGtHShsawHLyRROqH3Sdz71mf).
+`r fontawesome::fa("triangle-exclamation", fill = "#d40808")` If you have any questions or issues regarding any of the below instructions, please feel free to attend the office hours dedicated to installation troubleshooting. The dates and times for these more focused office hour sessions are listed below, and the Zoom link is available [here](https://uab.zoom.us/j/89923096971?pwd=pjpwOzRqMyoMrhU5872GhEu8XealEY.1).
 
 -   July 2nd: 2pm - 2:30pm
 

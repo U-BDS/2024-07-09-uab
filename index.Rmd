@@ -38,7 +38,7 @@ This workshop is designed as a foundation upon which more specialized skills can
 
 **Requirements:** Participants must bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. Please see the [installation instructions](installation.html) to ensure all required tools and packages are setup prior to the workshop.
 
-If you have any questions or errors while installing any of the software or packages or during any of the setup, please attend one of the below sessions for troubleshooting. The dates and times for these more focused are listed below, and the Zoom link is available [here](https://uab.zoom.us/meeting/register/tZ0rduCuqzotGtHShsawHLyRROqH3Sdz71mf).
+If you have any questions or errors while installing any of the software or packages or during any of the setup, please attend one of the below sessions for troubleshooting. The dates and times for these more focused are listed below, and the Zoom link is available [here](https://uab.zoom.us/j/89923096971?pwd=pjpwOzRqMyoMrhU5872GhEu8XealEY.1).
 
 -   July 2nd: 2pm - 2:30pm
 
