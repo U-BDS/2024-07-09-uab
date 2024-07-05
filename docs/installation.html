@@ -338,11 +338,12 @@ below command in the terminal window that appeared:
 <li><code>module load Anaconda3</code></li>
 </ul></li>
 <li>Anaconda works by creating isolated environments to install packages
-into. In order to create one of these environments, use the below
-command:
+into. In order to create one of these environments and install Nextflow
+and nf-core, use the below command:
 <ul>
-<li><p><code>conda create -p $USER_SCRATCH/conda_envs/rnaseq_workshop</code></p></li>
-<li><p>Type <code>y</code> when prompted.</p></li>
+<li><p><code>conda create -p $USER_SCRATCH/conda_envs/rnaseq_workshop python=3.12 bioconda::nf-core bioconda::nextflow</code></p></li>
+<li><p>Type <code>y</code> when prompted
+(<code>Proceed ([y]/n)?</code>).</p></li>
 <li><p>This command will create a new conda enviroment called
 <code>rnaseq_workshop</code> in your scratch space on Cheaha and under a
 sub-directory called <code>conda_envs</code>. It is important to name
@@ -353,12 +354,6 @@ purpose.</p></li>
 packages inside the newly created ‘rnaseq_workshop’ environment.
 <ul>
 <li><code>conda activate $USER_SCRATCH/conda_envs/rnaseq_workshop</code></li>
-</ul></li>
-<li>Inside the environment, install Nextflow and nf-core as these will
-be needed in order to run the pipeline
-<ul>
-<li><p><code>conda install bioconda::nf-core</code></p></li>
-<li><p>Be sure to type <code>y</code> when prompted</p></li>
 </ul></li>
 <li>The environment should be created and the packages installed, in
 order to get back out of the environment, we deactivate it
@@ -461,32 +456,21 @@ installing R and Rstudio above.</p>
 <ol style="list-style-type: decimal">
 <li>Open RStudio</li>
 <li>In the central panel (known as the <code>Source Code Panel</code>),
-type the below commands:</li>
+type the below command and press the <code>Enter</code> key</li>
 </ol>
-<pre><code>install.packages(c(&quot;BiocManager&quot;, &quot;remotes&quot;))
-BiocManager::install(c(&quot;DESeq2&quot;, &quot;tximport&quot;,
-                       &quot;vsn&quot;,&quot;apeglm&quot;, 
-                       &quot;tidyverse&quot;, &quot;SummarizedExperiment&quot;, &quot;vidger&quot;))
-
-BiocManager::install(c(&quot;biomaRt&quot;,
-                       &quot;clusterProfiler&quot;,
-                       &quot;msigdbr&quot;,
-                       &quot;Glimma&quot;, 
-                       &quot;simplifyEnrichment&quot;))
-
-BiocManager::install(c(&quot;enrichplot&quot;, &quot;kableExtra&quot;,&quot;ggrepel&quot;,&quot;ggpubr&quot;,
-                       &quot;ComplexHeatmap&quot;,&quot;ComplexUpset&quot;,&quot;EnhancedVolcano&quot;,
-                       &quot;RColorBrewer&quot;, &quot;hexbin&quot;, &quot;cowplot&quot;,
-                        &quot;gplots&quot;, &quot;ggplot2&quot;))
-
-install.packages(c(&quot;gprofiler2&quot;, &quot;ggridges&quot;, &quot;rmarkdown&quot;))</code></pre>
+<pre><code>install.packages(c(&quot;BiocManager&quot;, &quot;remotes&quot;))</code></pre>
 <ol start="3" style="list-style-type: decimal">
-<li>Run each command by highlighting each line one at a time and
-clicking the <code>Run</code> button that is located near the top-right
-of the <code>Source Code Panel</code> (NOTE: The exact location may
-differ dependent on the OS you are using, but the button should still be
-visible around the <code>Source Code Panel</code>). Repeat this for each
-line that was typed in the above step</li>
+<li>When you are prompted with
+<code>Update all/some/none? [a/s/n]:</code> , be sure to type
+<code>a</code> and press the <code>Enter</code> key.</li>
+<li>Repeat steps 2-3 with the following commands, making sure to run
+each block one at a time:</li>
+</ol>
+<pre><code>BiocManager::install(c(&quot;DESeq2&quot;, &quot;tximport&quot;,&quot;vsn&quot;,&quot;apeglm&quot;, &quot;tidyverse&quot;, &quot;SummarizedExperiment&quot;, &quot;vidger&quot;))</code></pre>
+<pre><code>BiocManager::install(c(&quot;biomaRt&quot;,&quot;clusterProfiler&quot;,&quot;msigdbr&quot;,&quot;Glimma&quot;,&quot;simplifyEnrichment&quot;))</code></pre>
+<pre><code>BiocManager::install(c(&quot;enrichplot&quot;, &quot;kableExtra&quot;,&quot;ggrepel&quot;,&quot;ggpubr&quot;,&quot;ComplexHeatmap&quot;,&quot;ComplexUpset&quot;,&quot;EnhancedVolcano&quot;,&quot;RColorBrewer&quot;, &quot;hexbin&quot;, &quot;cowplot&quot;,&quot;gplots&quot;, &quot;ggplot2&quot;))</code></pre>
+<pre><code>install.packages(c(&quot;gprofiler2&quot;, &quot;ggridges&quot;, &quot;rmarkdown&quot;))</code></pre>
+<ol start="5" style="list-style-type: decimal">
 <li>Once installation has completed for all packages, type the below
 commands to make sure packages installed correctly:</li>
 </ol>
